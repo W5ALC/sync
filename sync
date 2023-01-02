@@ -1,22 +1,22 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #set -x
 
-HOME_LOC='/run/media/nowhereman/5c272246-9fa8-4671-a436-966b50f58f86/nowhereman'
+HOME_LOC='/run/media/nowhereman/5c272246-9fa8-4671-a436-966b50f58f86/nowhereman' # Change this to computer backup folder
 PHONE_LOC='/storage/emulated/0'
 while true
 	do
 		echo "                Welcome to Sync-All"
-        echo "    To upload from Phone to Computer: Option 1"
-        echo "   To Download to Phone from Computer: Option 2"
-        echo "       x) To exit script: type x q X or exit"
+        	echo "    To upload from Phone to Computer: Option 1"
+        	echo "   To Download to Phone from Computer: Option 2"
+        	echo "       x) To exit script: type x q X or exit"
 		read -p "         Do you want to Upload or Download: " CHOICE
 	case "$CHOICE" in
 		1|upload)
 			echo "    1)   All"
 			echo "    2)   Camera"
-    		echo "    3)   Downloads"
-    		echo "    4)   Movies"
-    		echo "    5)   Music"
+    			echo "    3)   Downloads"
+    			echo "    4)   Movies"
+    			echo "    5)   Music"
 			echo "    6)   PDF"
 			echo "    7)   Pictures"
 			echo ""
@@ -59,9 +59,9 @@ while true
 		2|download)
 					echo "    1)   All"
 					echo "    2)   Camera"
-    			    echo "    3)   Downloads"
-    			    echo "    4)   Movies"
-    			    echo "    5)   Music"
+    			    		echo "    3)   Downloads"
+    			    		echo "    4)   Movies"
+    			    		echo "    5)   Music"
 					echo "    6)   PDF"
 					echo "    7)   Pictures"
 					echo ""
